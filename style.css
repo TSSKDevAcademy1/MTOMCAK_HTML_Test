@@ -1,0 +1,80 @@
+.col_1{
+	width: 8.3%;
+}
+.col_2{
+	width: 16.6%;
+}
+
+.col_3{
+	width: 25%;
+}
+
+.col_4{
+	width: 33.3%;
+	float: left;
+}
+
+.col_5{
+	width: 41.6%;
+}
+
+.col_6{
+	width: 50%;
+	margin:0 auto;
+	padding: 5px 5px;
+}
+
+.col_7{
+	width: 58.3%;
+}
+
+.col_8{
+	width: 56.6%;
+}
+
+.col_9{
+	width: 65%;
+}
+
+.col_10{
+	width: 83%;
+}
+
+.col_11{
+	width: 92%;
+}
+
+.col_12{
+	width: 100%;
+}
+
+
+.row{
+    border-style: solid;
+    border-width: 1px;
+    margin:0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	color: blue;
+	text-decoration: bold;
+}
+
+
+.banner {
+	font-size: 40px;
+	text-decoration: blink;
+	font-family: arial black;
+	color: red;
+	text-transform: uppercase;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>To do list</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- bootstrap lin using CDN-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- link text font from google-->
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class= "row"> 
+<div class="col_6"> <h1>TODO List !</h1> </div>
+</div>
+
+<div class= "row">
+  <div class="col_6">
+  Task: <input id="new-entry" type="text" name="item" value="ITEM"> 
+  <input id="btn-add" type="submit" value="Add">
+</div>
+</div>
+
+
+<!-- TODO List-->
+<div class= "row">
+  <div class="col_6">
+     <span id="listContainer">
+        Initializing. Please wait.
+  <ul id="todo-list">
+    <li>sdfg</li>
+  </ul>
+</span>
+</div>
+</div>
+
+
+<div class= "row">
+  <div class="col_6">
+  <input id="Done-btn-delete" type="submit" value="Done">
+</div>
+</div>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="toDoList.js"></script>
+</body>
+</html>
